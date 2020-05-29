@@ -16,7 +16,7 @@ console.log(result);
 
 function capitalizeLetter(){
 	let userInput = prompt("Please enter a phrase to capitalize every first letter:");
-    let capitilizeString = "";
+    let capitalizeString = "";
     let splitString = userInput.split(" ");
     for (let i = 0; i < splitString.Length; i++){
         if(i < splitString.Length - 1){
